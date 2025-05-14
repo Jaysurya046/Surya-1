@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+.container {
+    margin: auto;
+    padding: auto;
+    border: 2px solid green;
+    width: 90vw;
+    height: 90vh;
+    background-color: rgb(100, 100, 232);
+    position: relative;
+}
+img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 70px;
+    animation: animateX 3s linear infinite ,animateY 1s ease-out infinite alternate ;
+}
+
+@keyframes animateX {
+    from {
+        left: 0;
+    }
+    to {
+        left: 93%;
+    }
+}
+
+@keyframes animateY {
+    from {
+        bottom: 0%;
+    }
+    to {
+        bottom: 85%;
+    }
+}

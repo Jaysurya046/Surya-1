@@ -1,0 +1,35 @@
+body{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(110, 108, 110);
+
+}
+.main{
+    background-color: white;
+    border-radius: 9px;
+    width: 36vw;
+    height: 90vh;
+}
+span{  
+    margin: 5px;
+    padding: 0 6px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+.para{
+    text-align: center;
+    width: 400px;
+}
+.load{
+    color: aqua;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: azure
+}
+.pic{
+margin: 7px;
+border-radius: 20px;  
+}

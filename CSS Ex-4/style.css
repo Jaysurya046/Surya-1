@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+:root{
+    --primary_color: rgb(165, 53, 193);
+    --text_color:white;
+}
+
+
+ul li{
+    display: inline;
+    margin: 2px;
+    padding: 3px;
+    color: white;
+    background-color: var(--primary_color);
+}
